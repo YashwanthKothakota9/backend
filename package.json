@@ -1,0 +1,19 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "A backend app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Yashwanth K",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  }
+}
