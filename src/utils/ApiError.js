@@ -20,3 +20,11 @@ class ApiError extends Error {
 }
 
 export { ApiError };
+
+// Benefits of Using ApiError
+
+// Specific Error Type: Distinguishes between generic errors and those tied to your API, aiding in error handling.
+// Standardized Structure: Ensures consistent error reporting within your API.
+// Informative: Carries a status code, main message, and space for extra error details.
+// Debuggable: Includes stack trace information for pinpointing error origins.
+// Key Point:  Think of this as a blueprint for creating API-specific error objects. This class gives you the tool to communicate detailed error information from your API in a structured way.
