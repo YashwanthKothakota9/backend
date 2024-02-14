@@ -7,6 +7,8 @@ class ApiResponse {
   }
 }
 
+export { ApiResponse };
+
 // Benefits
 
 // Consistency: Ensures a consistent format for API responses, making it easier for clients to understand.
